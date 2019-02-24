@@ -1,4 +1,3 @@
-syntax: glob
-*/*.pyc
-*.swp
-*/*.exercism
+**/pyc
+**/.swp
+**/.exercism
