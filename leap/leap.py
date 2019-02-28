@@ -1,14 +1,15 @@
 def is_leap_year(year):
     leap_year_bool = False
-    if not year%4:
-#        leap_year_bool = True
-        if not year%100:
-            if not year%400:
-                leap_year_bool = True
-        elif not year%400:
+    if year%4==0:
+        leap_year_bool = True
+    if year%100==0:
+        if year%400==0:
             leap_year_bool = True
-#        else:
-#            leap_year_bool = False
+        else:
+            leap_year_bool = False
     return leap_year_bool
 
-
+def is_leap_year_opt(year):
+    leap_year_bool = False
+    if year%4==0:
+        pass
