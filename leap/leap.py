@@ -8,8 +8,3 @@ def is_leap_year(year):
         else:
             leap_year_bool = False
     return leap_year_bool
-
-def is_leap_year_opt(year):
-    leap_year_bool = False
-    if year%4==0:
-        pass
